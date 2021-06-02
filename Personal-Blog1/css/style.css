@@ -1,0 +1,48 @@
+*{margin: 0;padding: 0;}
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+body button{
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    border: none;
+}
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    /* padding-bottom: 2vh; */
+}
+.nav-section{
+    padding: 3vh;
+}
+.nav-section button{
+    font-size: 3vh;
+    color: aliceblue;
+}
+.nav-section a{
+    padding-right: 7vh;
+    padding-left: 5vh
+}
+.main-section h1{
+    padding-bottom: 2vh;
+    font-size: 4vh;
+}
+.main-section button{
+    font-size: 2.5vh;
+}
+header{
+    background-size: cover;
+}
+.nav-section button:hover{
+    background-color: rgb(145, 145, 145);
+    padding: 0.5vh;
+    transition: all ease 0.2s;
+}
+.main-section button:hover{
+    background-color: rgb(199, 199, 199);
+    padding: 0.5vh;
+    transition: all ease 0.2s;
+}
