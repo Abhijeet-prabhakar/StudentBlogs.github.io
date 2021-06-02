@@ -50,15 +50,17 @@ header{
     transition: all ease 0.2s;
     opacity: 85%;
     border-radius: 0.5vh;
+    opacity: 75%;
 }
 .main-section button:hover{
     background-color: rgb(113, 245, 113);
     padding: 1.5vh;
     transition: all ease 0.2s;
     opacity: 100%;
-}.about{
+}
+.about{
     padding-top: 33vh;
-    padding-bottom: 33vh;
+    padding-bottom: 25vh;
     font-size: 3.5vh;
 }
 footer{
@@ -74,4 +76,22 @@ footer{
 }
 .about strong{
     color: grey;
+}
+.top button{
+    background-color: rgb(113, 245, 113);
+    padding: 2vh;
+    border-radius: 2vh;
+    opacity: 0;
+    pointer-events: none;
+}
+.top a{
+    pointer-events: none;
+}
+.top{
+    padding-bottom: 5vh;
+}
+.backtopbutt button:hover{
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.1s ease all;
 }
