@@ -1,0 +1,58 @@
+*{margin: 0;padding: 0;}
+body h1{
+    font-family: 'Shadows Into Light', cursive;
+    padding-bottom: 4vh;
+    padding-top: 1vh;
+    font-size: 5vh;
+}
+body h3{
+    font-family: 'Manrope', sans-serif;
+    padding-top: 4vh;
+}
+.download_1{
+    padding: 2vh;
+    text-align: right;
+    opacity: 0%;
+    cursor: pointer;
+}
+.download_1 img{
+    box-shadow: 0px 0px 10px 10px gray;
+}
+body div:hover{
+    transition: all ease-in-out 1s;
+    opacity: 100%;
+    pointer-events: all;
+}
+body div:focus{
+    opacity: 100%;
+    pointer-events: all;
+}
+.title{
+    padding-bottom: 0.5vh;
+    color: rgb(43, 43, 43);
+}
+.hmmm{
+    padding-top: 0.5vh;
+    color: rgb(139, 139, 139);
+}
+.blank{
+    background-color: black;
+}
+.download_2{
+    padding: 2vh;
+    text-align: left;
+    opacity: 0%;
+    cursor: pointer;
+}
+.download_2 img{
+    box-shadow: 0px 0px 10px 10px rgb(61, 61, 61);
+}
+.download_2 h3:hover{
+    text-shadow: 10px 10px 10px 10px rgb(189, 189, 189);
+}
+body section a{
+    color: rgb(219, 219, 219);
+}
+.download_1 a{
+    color: rgb(98, 98, 255);
+}

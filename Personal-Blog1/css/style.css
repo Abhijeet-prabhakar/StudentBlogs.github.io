@@ -50,7 +50,8 @@ header{
     transition: all ease 0.2s;
     opacity: 85%;
     border-radius: 0.5vh;
-    opacity: 75%;
+    opacity: 100%;
+    color: black;
 }
 .main-section button:hover{
     background-color: rgb(113, 245, 113);
@@ -81,8 +82,7 @@ footer{
     background-color: rgb(113, 245, 113);
     padding: 2vh;
     border-radius: 2vh;
-    opacity: 0;
-    pointer-events: none;
+    opacity: 0%;
 }
 .top a{
     pointer-events: none;
@@ -90,8 +90,8 @@ footer{
 .top{
     padding-bottom: 5vh;
 }
-.backtopbutt button:hover{
-    opacity: 1;
+.top button:hover{
+    opacity: 100%;
     pointer-events: all;
     transition: 0.1s ease all;
 }
