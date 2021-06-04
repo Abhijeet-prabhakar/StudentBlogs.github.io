@@ -42,3 +42,16 @@ body div{
 .post button img{
     box-shadow: none
 }
+.cr{
+    color: aliceblue;
+    background-color: black;
+    font-family: 'Manrope', sans-serif;
+    padding: 2vh;
+    font-size: 3.5vh;
+    box-shadow: none;
+}
+.thanks{
+    box-shadow: none;
+    background-color: black;
+    color: aliceblue;
+}
