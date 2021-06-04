@@ -1,0 +1,44 @@
+*{margin: 0;padding: o;}
+body h3{
+    font-family: 'Manrope', sans-serif;
+    color: gray;
+}
+body h1{
+    font-family: 'Pacifico', cursive;
+}
+body div{
+    background-color: rgb(247, 247, 247);
+    padding: 3vh;
+    margin-right: 5vh;
+    box-shadow: 0px 0px 10px 10px rgb(216, 216, 216);
+}
+.post:hover{
+    font-size: larger;
+    transition: 350ms;
+}
+.post img{
+    box-shadow: 1px 2px 3px 5px rgb(190, 190, 190);
+}
+.post button{
+    font-size: 5vh;
+    text-align: right;
+    border-radius: 1.5vh;
+    background-color: rgb(219, 219, 219);
+    color: white;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+}
+.post button:hover{
+    padding: 0.5vh;
+    background-color: rgb(127, 127, 253);
+    transition: 100ms;
+}
+.post .like:hover{
+    background-color: rgb(255, 180, 126);
+}
+.post .like:focus{
+    background-color: red;
+}
+.post button img{
+    box-shadow: none
+}
