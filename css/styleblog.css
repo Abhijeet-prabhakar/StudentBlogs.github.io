@@ -55,3 +55,17 @@ body div{
     background-color: black;
     color: aliceblue;
 }
+@media(max-width: 781px){
+    body div{
+        margin-right: 0;
+    }
+    .post img{
+        width: 18rem;
+        height: 18rem;
+    }
+    .post button img{
+        width: 2rem;
+        height: 2rem;
+        padding-top: 1px;
+    }
+}
